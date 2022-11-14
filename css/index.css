@@ -933,10 +933,10 @@ strong {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-@media (max-width991px) {
+@media (max-width:991px) {
   .causes .container .allcauses .caus img{
-    max-width: 175px;
-    max-height: 185px;
+    width: 300px;
+    height: 200px;
   }
 }
 .caus h3{
