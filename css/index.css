@@ -933,7 +933,12 @@ strong {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-
+@media (max-width991px) {
+  .causes .container .allcauses .caus img{
+    max-width: 175px;
+    max-height: 185px;
+  }
+}
 .caus h3{
   padding: 25px 10px;
   color: var(--primary-color);
